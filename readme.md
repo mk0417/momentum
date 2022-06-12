@@ -17,9 +17,8 @@ like to see how those decisions affect momentum profits.
 
 ## Data
 - Data is from CRSP between Dec 1925 and Mar 2022.
-- Common stocks. ~shrcd~ = 10 or 11
-- Stock exchanges - NYSE/AMEX/NASDAQ. ~exchcd~ is equal to any of the following codes: -3, -2, -1,
-  0, 1, 2, 3.
+- Common stocks. `shrcd` = 10 or 11
+- Stock exchanges - NYSE/AMEX/NASDAQ. `exchcd` is from -2 to 3.
 
 ### Zero market values
 CRSP has zero market values (111 observations and 18 unique stocks). Remove them or not?
@@ -183,6 +182,7 @@ There are many options you can configure to test momentum under different settin
 
 ### Equal-weighted
 - MOM
+
 | port               |    ret |    t |     p |
 |:-------------------|-------:|-----:|------:|
 | 1 (loser)          | 0.0113 | 3.11 | 0.002 |
@@ -198,6 +198,7 @@ There are many options you can configure to test momentum under different settin
 | mom (winner-loser) | 0.0066 | 2.89 | 0.004 |
 
 - FF MOM
+
 | port               |    ret |    t |     p |
 |:-------------------|-------:|-----:|------:|
 | 1 (loser)          | 0.0099 | 2.76 | 0.006 |
@@ -215,10 +216,11 @@ There are many options you can configure to test momentum under different settin
 
 - Correlation of momentum (winner-loser): 0.997
 
-![](../figure/ffew.png)
+![](figure/ffew.png)
 
 ### Value-weighted
 - MOM
+
 | port               |    ret |    t |     p |
 |:-------------------|-------:|-----:|------:|
 | 1 (loser)          | 0.0037 | 1.23 | 0.22  |
@@ -234,6 +236,7 @@ There are many options you can configure to test momentum under different settin
 | mom (winner-loser) | 0.0112 | 4.85 | 0     |
 
 - FF MOM
+
 | port               |    ret |    t |     p |
 |:-------------------|-------:|-----:|------:|
 | 1 (loser)          | 0.0035 | 1.15 | 0.252 |
@@ -250,4 +253,4 @@ There are many options you can configure to test momentum under different settin
 
 - Correlation of momentum (winner-loser): 0.998
 
-![](../figure/ffvw.png)
+![](figure/ffvw.png)
