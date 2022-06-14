@@ -220,7 +220,7 @@ There are many options you can configure to test momentum under different settin
 
 - Correlation of momentum (winner-loser): 0.997
 
-![](figure/ffew.png)
+<img src="figure/ffew.png" width="600"/>
 
 ### Value-weighted
 - MOM
@@ -257,4 +257,4 @@ There are many options you can configure to test momentum under different settin
 
 - Correlation of momentum (winner-loser): 0.998
 
-![](figure/ffvw.png)
+<img src="figure/ffvw.png" width="600"/>
