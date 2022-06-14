@@ -9,6 +9,9 @@ and Selling Losers: Implications for Stock Market Efficiency](https://www.jstor.
 Momentum refers to the phenomenon that past winner stocks (based on past 3- to 12-month returns)
 continue to perform well while past loser stocks continue to have lower returns up to next 12 months.
 
+- Procedures to build momentum strategy
+<img src="figure/mom_jt.png" width="200"/>
+
 ## Motivation
 Momentum is a prominent market anomaly that attracts academics and practitioners attention. However,
 there are some empirical test variations and different authors may make different decisions when
