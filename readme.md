@@ -10,7 +10,8 @@ Momentum refers to the phenomenon that past winner stocks (based on past 3- to 1
 continue to perform well while past loser stocks continue to have lower returns up to next 12 months.
 
 - Procedures to build momentum strategy
-<img src="figure/mom_jt.png" width="500"/>
+> Page 68 of Jegadeesh and Titman (1993)
+<img src="figure/mom_jt.png" width="600"/>
 
 ## Motivation
 Momentum is a prominent market anomaly that attracts academics and practitioners attention. However,
